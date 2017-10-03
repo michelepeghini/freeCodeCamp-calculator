@@ -15,11 +15,11 @@ This is a stand alone single page app, all external libraries needed are either 
 
 ## Features
 
-*Code:*
+**Code:**
 * uses **module pattern**  to make the calculator reusable
 * uses **recursive algorithm** to evaluate expression
 
-*Fulfillment of Requirements:*
+**Fulfillment of Requirements:**
 * allows + - * / operations
 * "CE" button: clears current input (main screen only)
 * "AC" button: resets calculator (main and sub screen)
@@ -27,17 +27,25 @@ This is a stand alone single page app, all external libraries needed are either 
 * *"main screen":* current operand or operator
 * *"sub screen":* current set of operations being inputted
 
-*Extra features:*
+**Extra features:**
 * allows chaining of result. i.e. result of operation can be reused as operand for the next
 * allows operations with floats
 
 ## Known issues:
 
-* can provide a negative result but, if the result is reused in a subsequent operation the output is 'NaN'
+* Can provide a negative result but, if the result is reused in a subsequent operation the output is 'NaN'
 
 ## Screenshots
 
-![###](/###.png "###")
+**Desktop view**, multiple operations including a float number 
+
+![Multiple Operations](/calculator-desktop.png "multiple operations")
+
+-------------------
+
+**Mobile view**, multiple operations all with floats
+
+![Multiple Float Operations](/calculator-mobile.png "multiple Float operations")
 
 ## APIs / Libraries used
 
