@@ -46,7 +46,7 @@ button.btn.btn-default {
 }
 
 #main_screen input {
-  width:80%;
+  width: 100%;
   float: right;
   font-size: 28px;
 }
@@ -137,6 +137,10 @@ button.btn.btn-wide.equal {
 #credits h2 {
   margin: 10px auto 20px auto;
   color: #006400;
+}
+
+#credits h2 span{
+  white-space: nowrap;
 }
 
 #credits p {

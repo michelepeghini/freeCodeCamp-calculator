@@ -90,7 +90,10 @@ function Calculator() {
     },
     // calculates and returns result of fullEx
     getResult: function(){
-      return evaluate(fullEx).toFixed(4).toString(); // limits float digits to 4 and removes trailing zeros
+      var result = evaluate(fullEx);
+      return ( result % 1 === 0)
+        ? result // result is integer
+        :result.toString(); // result is float, limit float digits to 4 and removes trailing zeros
     }
   } 
 }//end calc
