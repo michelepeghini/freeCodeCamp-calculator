@@ -1,0 +1,153 @@
+body {
+  min-width: 340px;
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+}
+
+#calculator {
+  margin: 50px auto;
+  max-width: 320px;
+  padding: 5px;
+  border: 1px solid #006400;
+}
+
+.panel {
+  margin-bottom: 0;
+}
+
+.panel.panel-default>.panel-heading {
+  background: #006400;
+  border: 0;
+  box-shadow: 0px 3px 11px -2px #0f6935 inset;
+  background: -webkit-linear-gradient(#006400, #ffffff 200%);
+  background: -o-linear-gradient(#006400, #ffffff 200%);
+  background: -moz-linear-gradient(#006400, #ffffff 200%);
+  background: linear-gradient(#006400, #ffffff 200%);
+}
+
+#title {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+input,
+button.btn.btn-default {
+  background-color: #fff1e2;  
+}
+
+#main_screen input,
+#sub_screen input {  
+  margin: 10px 0 5px 0;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  padding: 0 5px;
+  /*direction: rtl;*/
+}
+
+#main_screen input {
+  width:80%;
+  float: right;
+  font-size: 28px;
+}
+
+#sub_screen input {
+  width: 100%;
+  font-size: 16px;
+}
+
+#calculator .panel.panel-body {
+  background-color: #74aa77;
+  border: 0;
+  margin-top: 2px;
+  
+}
+
+.btn-default {
+  width: 45px;
+  height: 45px;
+  margin: 5px auto;
+  font-size: 25px;
+  box-shadow: 0 0 10px -1px #aaaaaa inset;
+}
+
+.btn-wide {
+  width: 94px;
+  height: 45px;
+  padding: 0px;
+  margin: 5px auto;
+  font-size: 25px;
+  box-shadow: 0 0 10px -1px #aaaaaa inset;
+}
+
+.border_green {
+  border: 1px solid #006500; 
+}
+
+.border_red {
+  border: 1px solid #5b0000; 
+}
+
+.border_yellow {
+  border: 1px solid #684800; 
+}
+
+#ops button.btn.btn-default.reset,
+#ops button.btn.btn-default.clear {
+  background-color: #ff4646;
+  font-size: 16px;
+  box-shadow: 0 0 10px -1px #ff4646 inset;
+}
+
+button.btn.btn-default.operator {
+  background-color: #ffbf2d;
+  box-shadow: 0 0 10px -1px #ac7700 inset;
+}
+
+button.btn.btn-wide.equal {
+  background-color: #1b911b;
+  box-shadow: 0 0 10px -1px #006500 inset;
+}
+
+.panel.panel-footer {
+  background: -webkit-linear-gradient(#74aa77 , #006400);
+  background: -o-linear-gradient(#74aa77 , #006400);
+  background: -moz-linear-gradient(#74aa77 , #006400);
+  background: linear-gradient(#74aa77 , #006400);
+}
+
+/* TEMPLATE STYLES */
+
+#top_header {
+  color:#ffffff;
+  background-color: #006400;
+  margin: 0 auto;
+  padding: 20px 0 30px 0;
+}
+
+#credits {
+  border: 2px solid #006400;
+  box-shadow: 5px 5px 10px #006400;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+#credits h2 {
+  margin: 10px auto 20px auto;
+  color: #006400;
+}
+
+#credits p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#credits a {
+  color: #006400;
+}
+
+#credits .row {
+  margin-bottom: 20px;
+}
